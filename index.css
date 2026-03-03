@@ -5,7 +5,7 @@
 
 /* Corpo normal do site */
 body {
-    background-image: url(pexels.jpg);
+    background-image: url(fundo.jpg);
         background-color: rgb(59, 8, 141);
     color: white;
     font-size: 15px;
@@ -32,4 +32,23 @@ a {
     color: rgb(219, 209, 235);
     text-decoration:none;
     font-size: 22px;
+}
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center top;
+    transform: scale(1.1);
+    object-position: 100% 20%;
+}
+.informacoes {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  padding: 25px;
+  background-color: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 15px rgba(168, 85, 247, 0.3);
+  margin: 3px auto;
+  max-width: 440px;
 }
