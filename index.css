@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'captain';
+    src: url('American Captain.ttf') format('truetype');
+}
+
+/* Corpo normal do site */
+body {
+    background-image: url(pexels.jpg);
+        background-color: rgb(59, 8, 141);
+    color: white;
+    font-size: 15px;
+    margin: 100px 40px 10px 10px;
+    font-family: Arial, sans-serif; /* fonte padrão */
+}
+
+/* Só o nome muda a fonte */
+.nome {
+    font-family: 'Arial, sans-serif;'
+    font-size: 45px;
+}
+
+/* Mantém a foto redonda */
+.img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+a {
+    color: rgb(219, 209, 235);
+    text-decoration:none;
+    font-size: 22px;
+}
